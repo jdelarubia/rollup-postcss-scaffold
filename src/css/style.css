@@ -1,0 +1,6 @@
+div {
+  background: lightblue;
+  & .special {
+    background: blue;
+  }
+}
