@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postcss": "postcss ./src/css/style.css --output ./dist/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/jdelarubia/rollup-postcss-scaffold#readme",
   "devDependencies": {
-    "rollup-plugin-postcss": "^4.0.2"
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "postcss-nesting": "^10.1.1"
   }
 }
