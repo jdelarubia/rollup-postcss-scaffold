@@ -1,0 +1,23 @@
+{
+  "name": "rollup-postcss-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdelarubia/rollup-postcss-scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdelarubia/rollup-postcss-scaffold/issues"
+  },
+  "homepage": "https://github.com/jdelarubia/rollup-postcss-scaffold#readme",
+  "devDependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
