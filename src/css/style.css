@@ -1,10 +1,19 @@
+@import "./variables.css";
+@import "./component-x.css";
+
+body {
+  font-family: Arial;
+  font-size: 2em;
+  background: var(--bg-body);
+}
 div {
   background: lightblue;
-  & .special {
-    background: blue;
+  & .green-marker {
+    background-color: green;
   }
 }
 
+/* unused classes from here... */
 ::placeholder {
   color: gray;
 }
