@@ -1,6 +1,11 @@
+
 module.exports = {
   plugins: {
     "postcss-nesting": true /* Nesting CSS */,
     autoprefixer: true /* CSS Vendor prefixes */,
+    "postcss-purgecss": {
+      content: ["./dist/**/*.html"],
+      css: ["./src/**/*.css"],
+    },
   },
 };
