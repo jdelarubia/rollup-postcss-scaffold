@@ -22,6 +22,7 @@
   "homepage": "https://github.com/jdelarubia/rollup-postcss-scaffold#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.1",
+    "cssnano": "^5.0.15",
     "live-server": "^1.2.1",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.5",
