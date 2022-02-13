@@ -1,6 +1,10 @@
 # rollup-postcss-scaffold
 
-Example of pipeline.
+Example of a pipeline which includes:
+
+- TypeScript
+- PostCSS for the CSS post transformation
+- Rollup for the JavaScript bundling
 
 ## Running the example
 
