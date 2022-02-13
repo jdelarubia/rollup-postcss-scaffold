@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "SERVE": "live-server --open=./dist --port=8000",
-    "WATCH": "npm-run-all --parallel watch:css",
+    "WATCH": "npm-run-all --parallel watch:ts watch:js watch:css",
     "build:css": "postcss ./src/css/style.css --no-map --output ./dist/css/style.css",
-    "watch:css": "postcss ./src/css/style.css --map --watch --output ./dist/css/style.css"
+    "watch:css": "postcss ./src/css/style.css --map --watch --output ./dist/css/style.css",
+    "watch:ts": "tsc --watch",
+    "watch:js": "rollup --config --watch",
+    "bundle:js": "rollup --config"
   },
   "repository": {
     "type": "git",
