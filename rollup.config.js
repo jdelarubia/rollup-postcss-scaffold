@@ -15,7 +15,7 @@ export default {
   },
   output: {
     file: "./dist/js/bundle.js",
-    format: "iife",
+    format: 'es',
     sourcemap: devMode ? "inline" : false,
   },
 };
