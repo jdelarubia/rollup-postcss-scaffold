@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "SERVE": "live-server --open=./dist --port=8000",
+    "SERVE": "live-server --mount=/:./dist --port=8080 --host=127.0.0.1 --file=index.html",
     "WATCH": "npm-run-all --parallel watch:ts watch:js watch:css",
     "build:css": "postcss ./src/css/style.css --no-map --output ./dist/css/style.css",
     "watch:css": "postcss ./src/css/style.css --map --watch --output ./dist/css/style.css",
